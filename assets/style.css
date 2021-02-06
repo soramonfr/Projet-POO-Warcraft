@@ -1,0 +1,33 @@
+body {
+  background-image: linear-gradient(to bottom, #f1eef5 10%, #312d33 90%);
+  padding-bottom: 13rem;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  margin-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.row {
+  margin-top: 2rem;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card .btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #312d33;
+  color: white;
+}
+
+.card .btn:hover {
+  box-shadow: 5px 5px 5px #504a53;
+}
